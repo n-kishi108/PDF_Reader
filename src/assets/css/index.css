@@ -1,0 +1,95 @@
+/*****
+reset
+*****/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* html {
+  width: 100%;
+} */
+
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+} */
+
+ul {
+  display: block;
+  list-style: none;
+}
+
+/*****
+index
+*****/
+
+body {
+    display: block;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    /* position: absolute;
+    top: 0; */
+    display: block;
+    width: calc(100% - 325px);
+    margin: 0 0 0 325px;
+    padding: 0;
+    /* margin-left: 325px; */
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.wrapper .content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* padding: 15px 20px; */
+    background: #fff;
+}
+
+.wrapper .content #target {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    /* height: calc(100vh - 40px); */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .content article {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.wrapper .content article h1, .wrapper .content article h2, .wrapper .content article h3 {
+    font-weight: bold;
+    color: #000;
+}
+.wrapper .content article h1 {font-size: 40px; line-height: 100px;}
+.wrapper .content article h2 {font-size: 32px; line-height: 80px;}
+.wrapper .content article h3 {font-size: 24px;}
+.wrapper .content article p {font-size: 16px;}
+
+.wrapper .content article section {
+    width: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.wrapper .content article section h2 {
+    border-bottom: solid 1px #aaa;
+}
+
+.wrapper .content article section h3 {
+    margin-top: 30px;
+}
